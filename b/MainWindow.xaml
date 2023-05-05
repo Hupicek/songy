@@ -1,0 +1,17 @@
+﻿<Window x:Class="b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:b"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Pl" HorizontalAlignment="Left" Margin="84,42,0,0" VerticalAlignment="Top" Height="68" Width="119" Click="Button_Click_1"/>
+        <Button Content="Čr" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" Height="68" Width="120" Click="Button_Click_3"/>
+        <Button Content="Sl" HorizontalAlignment="Left" Margin="601,42,0,0" VerticalAlignment="Top" Height="68" Width="119" Click="Button_Click_4"/>
+        <Button Content="Přehrát" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Height="68" Width="388" Click="Button_Click"/>
+        <Button Content="precist" HorizontalAlignment="Center" Margin="0,326,0,0" VerticalAlignment="Top" Height="83" Width="428" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
